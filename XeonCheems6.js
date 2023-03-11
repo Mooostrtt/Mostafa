@@ -7642,67 +7642,22 @@ const buttons = [
 ]
 const buttonMessage = {
     image: unicorn,
-    caption: `╔═══════✪ المالك 	
-╠ ${prefix}برايفت
-منع الجميع من استخدام البوت غير المالك
-
-╠ ${prefix}للجميع
-لتمكن من الجميع استعمال البوت
-
-╠ ${prefix}خشش
-لدخول الجروب
-
-╠ ${prefix}موزه
-للخروج من الجروب
-
-╠ ${prefix}بيسي
-ارسال رساله لكل شاتات
-
-╠ ${prefix}اعملروم 
-بوت هيعمل جروب
-
-╠ ${prefix}اديلوبلوك 
-
-╠ ${prefix}فكالبلوك 
-╠═══════✪ الاعضاء المميزين
-╠ ${prefix}ضيف
-اضافه شخص عن طريق رقم او ريب او @
-
-╠ ${prefix}طلعو
-بيطرد عن طريق رقم او ريب او @
-
-╠ ${prefix}لينكات 
-ميزه لينكات بيطرد اي شخص بينزل لينك في جروبات
-
-╠ ${prefix}حمل3
-بيحمل اغاني  يوتيوب 
-
-╠ ${prefix}حمل4
-بيحمل فديوهات يوتيوب
-
-╠ ${prefix}تيكتوكك
-بيحمل فديوهات تيكتوك
-
-╠ ${prefix}جروب
-بيقفل جروب وبيفتحو
-
-╠ ${prefix)منعشتايم
-اي حد بيشتم بيطلعو
-
-╠ ${prefix}مشرف
-بيرفع  العضو لنشرف
-
-╠ ${prefix}نزلو
-بينزل المشرف لعضو
-
-╠ ${prefix}سرقه
-بيسرق استيكر ب نيمك
-
-╠ ${prefix}متحركه
-بيحول فديو ل جيف او استيك ل جيف
-
-╠ ${prefix}انطق
-انطق بعديها كلمه بيقول ف ريك
+    caption: `╔═══════✪ OWNER 	
+╠ ${prefix}self
+╠ ${prefix}public
+╠ ${prefix}join [link]
+╠ ${prefix}leavegc
+╠ ${prefix}setbio
+╠ ${prefix}bctext [text]
+╠ ${prefix}bcimage [reply img/text]
+╠ ${prefix}bcvideo [reply img/text]
+╠ ${prefix}setbotpp [image]
+╠ ${prefix}setthumb [reply img]
+╠ ${prefix}setexif
+╠ ${prefix}hijack
+╠ ${prefix}creategroup [name]
+╠ ${prefix}block [tag/number]
+╠ ${prefix}unblock [tag/number]
 ╠═══════✪ GROUP 	        
 ╠${prefix}grouplink
 ╠${prefix}ephemeral [option]
@@ -7846,6 +7801,8 @@ const buttonMessage = {
 ╠${prefix}instagram [url]
 ╠${prefix}spotify [url]
 ╠${prefix}mediafire [url]
+╠${prefix}ytmp3 [url|quality]
+╠${prefix}ytmp4 [url|quality]
 ╠${prefix}gitclone [repo link]
 ╠═══════✪ SEARCH 	
 ╠${prefix}play [query]
@@ -8050,6 +8007,42 @@ const buttonMessage = {
 ╠${prefix}cringe
 ╠${prefix}neko
 ╠${prefix}gura
+╠═══════✪ NSFW 
+╠${prefix}gifhentai
+╠${prefix}gifblowjob
+╠${prefix}hentaivideo
+╠${prefix}hneko
+╠${prefix}nwaifu
+╠${prefix}animespank
+╠${prefix}trap
+╠${prefix}gasm
+╠${prefix}ahegao
+╠${prefix}ass
+╠${prefix}bdsm
+╠${prefix}blowjob
+╠${prefix}cuckold
+╠${prefix}cum
+╠${prefix}milf
+╠${prefix}eba
+╠${prefix}ero
+╠${prefix}femdom
+╠${prefix}foot
+╠${prefix}gangbang
+╠${prefix}glasses
+╠${prefix}hentai
+╠${prefix}jahy
+╠${prefix}manga
+╠${prefix}masturbation
+╠${prefix}neko-hentai
+╠${prefix}neko-hentai2
+╠${prefix}nsfwloli
+╠${prefix}orgy
+╠${prefix}panties
+╠${prefix}pussy
+╠${prefix}tentacles
+╠${prefix}thights
+╠${prefix}yuri
+╠${prefix}zettai
 ╠═══════✪ FUN 
 ╠ ${prefix}say [text]
 ╠ ${prefix}define [text]
@@ -8331,6 +8324,37 @@ const buttonMessage = {
 ╠ ${prefix}donate
 ╠ ${prefix}request
 ╠ ${prefix}report [bug]
+╠═══════✪「 BUG MENU 」	
+╠════☾pc attack☽
+╠${prefix}pcbut [number]
+╠${prefix}pcvn [number]
+╠${prefix}pcstick [number]
+╠${prefix}pcfast [number]
+╠${prefix}pcslow [number]
+╠${prefix}pcbunny [number]
+╠${prefix}xcrasher [amount]
+╠${prefix}pccontact [amount]
+╠${prefix}virtex5 [amount]
+╠${prefix}flower [amount]
+╠${prefix}pollbug [amount]
+╠${prefix}catalogbug [amount]
+╠${prefix}trollybug [amount]
+╠${prefix}trollybug2 [amount]
+╠════☾gc attack☽
+╠${prefix}gcslow
+╠${prefix}gcfast
+╠${prefix}gcbunny
+╠${prefix}tagallbug
+╠════☾pc & gc attack☽
+╠${prefix}vnbug [amount]
+╠${prefix}docbug [amount]
+╠${prefix}pcgcslow [number]
+╠${prefix}pcgcfast [number]
+╠${prefix}pcgcbunny [number]
+╠${prefix}textshot
+╠${prefix}docfuck [amount]
+╠${prefix}docsoft [amount]
+╠${prefix}docsoft2 [amount]
 ╚═════════════✪`,
     footer: `${botname}`,
     buttons: buttons,
