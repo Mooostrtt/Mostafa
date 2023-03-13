@@ -1,2 +1,5 @@
 node_modules
 package-lock.json.
+https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
+
+https://github.com/clhuang/heroku-buildpack-webp-binaries.git
