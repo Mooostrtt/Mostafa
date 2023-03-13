@@ -15,23 +15,23 @@ global.doc5 = 'application/pdf'
 global.doc6 = 'application/vnd.android.package-archive'
 
 //owmner v card
-global.owner = ['201121968769'] //ur owner number
-global.ownername = "khufu" //ur owner name
-global.ytname = "YT: khufu" //ur yt chanel name
-global.socialm = "GitHub: khufu737" //ur github or insta name
+global.owner = ['201030982295'] //ur owner number
+global.ownername = "مصطفي" //ur owner name
+global.ytname = "YT: مصطفي" //ur yt chanel name
+global.socialm = "GitHub: Mooostrtt" //ur github or insta name
 global.location = "eg, g,y" //ur location
 
 //bot bomdy 
-global.ownernomer = "201121968769" //ur number
-global.premium = ['201121968769'] //ur premium number
+global.ownernomer = "201030982295" //ur number
+global.premium = ['201030982295'] //ur premium number
 global.botname = 'ᴹᴿ᭄ Bot Whatsapp ×፝֟͜×️' //ur bot name
-global.linkz = "https://chat.whatsapp.com/Ivno4IbIyxMKSgyg6f1dKw" //your theme url which will be displayed on whatsapp
-global.websitex = "https://youtube.com/@khufualmoz3g974" //ur website to be displayed
-global.botscript = 'https://youtube.com/@khufualmoz3g974' //script link
+global.linkz = "https://chat.whatsapp.com/BX0EwHnIUngBEJkj7KPlZW" //your theme url which will be displayed on whatsapp
+global.websitex = "https://youtube.com/@vvvMostafevvv57012Ahmed?si=EnSIkaIECMiOmarE" //ur website to be displayed
+global.botscript = 'https://youtube.com/@vvvMostafevvv57012Ahmed?si=EnSIkaIECMiOmarE' //script link
 global.themeemoji = "🦄" //ur theme emoji
-global.packname = "خوفو ص المزعجين ☺️" //ur sticker watermark packname
-global.author = "201121968769" //ur sticker watermark author
-global.wm = "khufu." //ur watermark
+global.packname = "مصطفي" //ur sticker watermark packname
+global.author = "Mostafa" //ur sticker watermark author
+global.wm = "Mostafa." //ur watermark
 
 // Other
 global.sessionName = 'session'
@@ -40,7 +40,7 @@ global.sp = ''
 
 //messages
 global.mess = {
-    success: 'ضن☺️',
+    success: 'تم☺️',
     admin: 'الادمن فقط ',
     botAdmin: 'لازم اكون ادمن',
     premime: 'اعضاء المميزين فقط',
