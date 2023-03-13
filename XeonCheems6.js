@@ -6223,12 +6223,12 @@ const reply = `
     }
     break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
-teks = `*「 ${global.botname}  」*\n\nYouTube: ${global.websitex}\n https://wa.me/+201121968769`
+teks = `*「 ${global.botname}  」*\n\nYouTube: ${global.websitex}\n https://wa.me/+201030982295`
 let buttons = [
 {buttonId: `owner`, buttonText: {displayText: 'Owner 🌺'}, type: 1}
 ]
 let buttonMessage = {
-image: {url: `https://wa.me/+201121968769`},
+image: {url: `https://wa.me/+201030982295`},
 jpegThumbnail: log0,
 caption: teks,
 footer: `${botname}`,
@@ -6239,8 +6239,8 @@ title:"خش كلمنييي🤓",
 body: "", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
-mediaUrl: 'https://wa.me/+201121968769',
-sourceUrl: "https://wa.me/+201121968769"
+mediaUrl: 'https://wa.me/+201030982295',
+sourceUrl: "https://wa.me/+201030982295"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -7227,7 +7227,7 @@ var catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "retailerId": wm,
 "url": websitex
 },
-"businessOwnerJid": "201121968769@s.whatsapp.net",
+"businessOwnerJid": "201030982295@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: doc })
 XeonBotInc.relayMessage(m.chat, catalog.message, { messageId: catalog.key.id })
@@ -7262,7 +7262,7 @@ var xeonoporwot = generateWAMessageFromContent(m.chat, proto.Message.fromObject(
 "surface": "CATALOG",
 "message": ownername,
 "orderTitle": wm, // 
-"sellerJid": " 201121968769@s.whatsapp.net",
+"sellerJid": " 201030982295@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
 }), { userJid: m.chat, quoted: doc })
