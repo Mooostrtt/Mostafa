@@ -85,7 +85,7 @@ async function startXeonBotInc() {
     let blockxeon = await XeonBotInc.sendContact(callerId, global.owner)
     XeonBotInc.sendMessage(callerId, { text: `*Automatic blocking system!*\n*Don't call bot*!\n*Please contact the owner to open block !*`}, { quoted : blockxeon })
     await sleep(8000)
-    await XeonBotInc.updateBlockStatus(callerId, "block")
+    await XeonBotInc.updateBlockStatus(callerId, "blocko")
     }
     })
 
